@@ -1,14 +1,12 @@
 # loquat
 
-A Clojure library designed to ... well, that part is up to you.
+A web application to design surveys and send them to your phone.
+By two radical dudes.
 
 ## Usage
 
-FIXME
+
 
 ## License
 
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+MIT I think. Josh? Thoughts?
