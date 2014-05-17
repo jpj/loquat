@@ -3,4 +3,10 @@
   :url "http://www.github.com/jskulski/loquat"
   :license {:name "MIT License"
             :url "http://opensource.org/licenses/MIT"}
-  :dependencies [[org.clojure/clojure "1.5.1"]])
+  :dependencies [[org.clojure/clojure "1.5.1"]
+                 [ring "1.1.8"]
+                 [compojure "1.1.5"]
+                 [de.ubercode.clostache/clostache "1.3.1"]]
+  :main loquat.core)
+
+
