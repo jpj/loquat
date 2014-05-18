@@ -1,8 +1,11 @@
 (ns loquat.core
-  (:require
-    [ring.adapter.jetty :as jetty]))
+  (:use [compojure.core]
+        [ring.adapter.jetty]))
 
-(defn -main []
-  (jetty/run-jetty
-   (fn [req] {:status 200 :body "Hello World"})
-   {:port 5000}))
+
+; Routing
+(defroutes main-routes
+  (GET "/" [] "Hello World"))
+
+
+; Server

@@ -1,7 +1,9 @@
 (ns loquat.core-test
-  (:require [clojure.test :refer :all]
-            [loquat.core :refer :all]))
+  (:use [clojure.test :refer :all]
+        [loquat.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+
+;; (deftest hello-world-test
+;;   (is (= (index-handler (request :get "/"))
+;;          {:status 200
+;;           :body "Hello World"})))
