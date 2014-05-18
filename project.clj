@@ -7,6 +7,7 @@
                  [ring "1.1.8"]
                  [compojure "1.1.5"]
                  [de.ubercode.clostache/clostache "1.3.1"]]
+  :dev-dependencies [[ring-mock "0.1.5"]]
   :main loquat.core)
 
 
